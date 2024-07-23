@@ -1,0 +1,80 @@
+.leo {
+  padding-right: 1rem;
+}
+
+.dada {
+  padding: 30px;
+  background-color: #F4F6FC;
+
+}
+
+
+.as {
+  padding: 8px;
+  border-style: none;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 6px 0px #f8dc80, -2px -2px 6px 0px violet;
+}
+
+.nev {
+  text-decoration: none;
+  color: black
+}
+
+.nevo1 {
+  display: flex;
+  justify-content: center;
+}
+
+.beso {
+  display: flex;
+  justify-content: left;
+  margin-left: 13rem;
+}
+
+.productive {
+  width: 18rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  box-shadow: 2px 2px 10px #e2a241, -2px -2px 10px #fadbc6;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.productive:hover {
+  box-shadow: 2px 2px 15px red, -2px -2px 15px violet;
+  animation: scaleAnimation 0.3s ease forwards;
+}
+
+.polender {
+  background-color: rgb(255, 255, 255, 0.5);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 15px red, -2px -2px 15px violet;
+}
+
+/* Add your custom CSS styles here */
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.soso:hover {
+  box-shadow: 2px 2px 15px rgb(217, 255, 0), -2px -2px 15px rgb(0, 251, 255);
+}

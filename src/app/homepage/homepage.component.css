@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.as {
+  padding: 8px;
+  border-style: none;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 6px 0px #f8dc80, -2px -2px 6px 0px violet;
+}
+
+.nev {
+  text-decoration: none;
+  color: black
+}
+
+.nevo1 {
+  display: flex;
+  justify-content: center;
+}
+
+.beso {
+  display: flex;
+  justify-content: left;
+  margin-left: 13rem;
+}
+
+.smooze:hover {
+  background-color: rgb(148, 64, 227, 10);
+}
+
+.pepo {
+  left: 0px;
+  bottom: -100px;
+  position: absolute;
+  color: white;
+  font-size: x-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  overflow: hidden;
+}
+
+.leo {
+  padding-right: 1rem;
+}
+
+.beb {
+  border-style: none;
+  border-radius: 1rem;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.cards:hover {
+  background-color: aliceblue;
+
+}
+
+.productive {
+  width: 18rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  box-shadow: 2px 2px 10px #e2a241, -2px -2px 10px #fadbc6;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+
+}
+
+
+
+
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.productive:hover {
+  box-shadow: 2px 2px 15px red, -2px -2px 15px violet;
+  animation: scaleAnimation 0.3s ease forwards;
+}
+
+/* Apply the animation to the element */
+.bobmar:hover {
+  box-shadow: 2px 2px 15px red, -2px -2px 15px violet;
+  animation: scaleAnimation 0.3s ease forwards;
+
+  .pepo {
+    bottom: 5px;
+  }
+}

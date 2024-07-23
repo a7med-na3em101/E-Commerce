@@ -1,0 +1,37 @@
+.leo {
+  padding-right: 1rem;
+}
+
+.dada {
+  padding: 30px;
+  background-color: #F4F6FC;
+
+}
+
+
+.as {
+  padding: 8px;
+  border-style: none;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 6px 0px #f8dc80, -2px -2px 6px 0px violet;
+}
+
+.nev {
+  text-decoration: none;
+  color: black
+}
+
+.nevo1 {
+  display: flex;
+  justify-content: center;
+}
+
+.beso {
+  display: flex;
+  justify-content: left;
+  margin-left: 13rem;
+}
+
+.smooze:hover {
+  background-color: rgb(148, 64, 227, 10);
+}
